@@ -29,7 +29,7 @@ function createNote(title, text) {
   const textInputEl = noteEl.querySelector('#note-textarea');
 
   editBtn.addEventListener('click', (e) => {
-    titleEl.classList.toggle('hidden'); //toggle добавляет класс если нету, убирает если есть
+    titleEl.classList.toggle('hidden'); //toggle adds the class if there is no class, removes it if there is
     textEl.classList.toggle('hidden');
 
     titleInputEl.classList.toggle('hidden');

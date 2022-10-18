@@ -28,7 +28,7 @@ body {
 .notes {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* чтобы был перенос на след строку есои много заметок*/
+    flex-wrap: wrap; /* skipping to the next line if there are a lot of notes*/
 }
 
 .note {
