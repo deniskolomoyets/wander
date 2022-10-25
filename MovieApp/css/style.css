@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 16px;
   height: 60px;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 .movie__cover-inner {
   position: relative;
-  /* height:360px; */
+  height:360px;
 }
 
 .movie__cover {
