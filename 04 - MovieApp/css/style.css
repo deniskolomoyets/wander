@@ -83,6 +83,7 @@ body {
 .movie__category {
     font-size: 14px;
     color:#ffd80e;
+    word-break: break-all;
 }
 .movie__average {
     position: absolute;
